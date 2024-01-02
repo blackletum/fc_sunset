@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/mailer/beserkerarmor/001"
+	$envmapmask "models/mailer/beserkerarmor/003"
+	$selfillumtexture "models/mailer/beserkerarmor/001"
+	$bumpmap "models/mailer/beserkerarmor/002"
+
+	$detail "models/mailer/beserkerarmor/001_emis"
+	$detailscale 1
+	$detailblendfactor "1"
+	$detailblendmode 5
+
+	 $selfillum "1"
+    "$phong" "1"
+    "$phongboost"    "1"
+    "$phongexponent" "10"
+    "$phongfresnelranges"    "[0.05 .5 1]"
+}

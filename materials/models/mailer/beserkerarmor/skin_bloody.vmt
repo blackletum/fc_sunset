@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/mailer/beserkerarmor/007_Bloody"
+	$envmapmask "models/mailer/beserkerarmor/007_Spec"
+	$bumpmap "models/mailer/beserkerarmor/010"
+
+	$nocull 1
+    "$phong" "1"
+    "$phongboost"    "1"
+    "$phongexponent" "10"
+    "$phongfresnelranges"    "[0.05 .5 1]"
+}

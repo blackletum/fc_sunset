@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/mailer/beserkerarmor/016_Bloody"
+	$envmapmask "models/mailer/beserkerarmor/015"
+	$bumpmap "models/mailer/beserkerarmor/014"
+
+
+$alphatest 1
+}
