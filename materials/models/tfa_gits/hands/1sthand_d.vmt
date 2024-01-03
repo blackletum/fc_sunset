@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+    $basetexture "models/tfa_gits/hands/1sthand_d"
+    $bumpmap "models/tfa_gits/hands/1sthand_n"
+
+    $phong "1"
+    $phongboost "10"
+    $phongexponent "12"
+    $phongfresnelranges "[0.35 0.5 1.0]"
+    $normalmapalphaenvmapmask "1"
+
+    $envmap "env_cubemap"
+    $envmaptint "[0.1 0.1 0.1]"
+    $normalmapalphaenvmapmask "1"
+    $envmapfresnel "1"
+
+    $nocull "1"
+}

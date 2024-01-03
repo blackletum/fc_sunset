@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+    $basetexture "models/tfa_gits/hands/Bato01_ARM_FPS_D"
+    $bumpmap "models/tfa_gits/hands/Bato01_ARM_FPS_N"
+
+    $phong "1"
+    $phongboost "16"
+    $phongexponent "4"
+    $phongfresnelranges "[0.04 0.15 1.0]"
+    $normalmapalphaenvmapmask "1"
+
+    $envmap "env_cubemap"
+    $envmaptint "[0.05 0.05 0.05]"
+    $normalmapalphaenvmapmask "1"
+    $envmapfresnel "1"
+}

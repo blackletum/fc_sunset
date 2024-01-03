@@ -1,0 +1,20 @@
+"VertexLitGeneric" {
+
+"$basetexture" "models/emperorfaiz/kirbo/mouth"
+	$nocull 1
+	
+	"$bumpmap"     "models/emperorfaiz/kirbo/normal"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "0.7"
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+
+	$ambientocclusion 1
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "1"
+	"$rimlightboost" "0.1"
+	"$rimmask" 1
+}

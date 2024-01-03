@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+	$basetexture "models/kof\shermie_enlightened_shadow/head"
+	$bumpmap "models/kof\shermie_enlightened_shadow/head_n"
+                $color2 "[ 1 1 1]"
+	$surfaceprop Flesh
+
+	$lightwarptexture "models/kof\shermie_enlightened_shadow/toon_c"
+	$alphatest 0
+
+
+	$phong 1
+                "$phongfresnelranges"    "[0.1 0.2 0.945]"
+	$phongalbedotint 4
+	$phongexponent 1
+	$phongboost 1
+	$phongalbedoboost 4
+                $phongexponenttexture "models/kof\shermie_enlightened_shadow/head_e"
+
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 1
+	$rimlightmask 1
+
+
+	$rimmask 1
+
+}

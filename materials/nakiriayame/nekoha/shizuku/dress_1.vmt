@@ -1,0 +1,21 @@
+patch
+{
+
+include "materials/20doge/daie/rng.vmt"
+insert
+{
+	"$basetexture" "20doge/daie/dress_1"
+        "$lightwarptexture" "20doge/daie/basewarp"
+         "$bumpmap" "20doge/daie/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+	
+"$itemid" "1"
+}
+}
