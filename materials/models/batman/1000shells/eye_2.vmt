@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/batman/1000shells/eye_2"
+
+	"$selfillum"		"1"
+	"$selfillummask"	"models/batman/1000shells/effect_black"
+	"$selfillumtint"	"[0,5 0,5 0,5]"
+
+	"$phong" "1"
+	"$phongexponent" "0"
+
+	//"$phongexponenttexture" 	"themask/shared/armor_exp"
+	//"$phongwarptexture"		"themask/shared/fuel_Shine"
+
+	"$phongalbedotint" "1"
+	"$phongboost" ".12" 
+	"$phongfresnelranges"	"[02 10 50]"
+
+	//"$detail" "themask/shared/detail/detail_corrosion2"
+	$detailscale 5
+	$detailblendfactor 1.1
+	$detailblendmode 0
+}

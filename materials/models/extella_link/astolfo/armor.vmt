@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Extella_Link\Astolfo/Armor"
+                "$alphatest" "1"
+
+	"$model" 1
+"$nocull" 0
+
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost"	"1"
+                "$lightwarptexture" "models\Extella_Link\Astolfo/toon_c"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Extella_Link\Astolfo/Silver2"
+                "$envmap"        "models\Extella_Link\Astolfo/softsilver.hdr"
+                "$envmapcontrast" "0"
+	"$model" 1
+
+
+	"$normalmapalphaenvmapmask" "1"
+                "$lightwarptexture" "models\Extella_Link\Astolfo/toon_c"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

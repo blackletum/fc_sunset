@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/1000shells/batsignal/obj_batSignalB"
+	"$bumpmap" "models/1000shells/batsignal/tailobj_batSignalB_nm"
+	"$envmapmask" "models/1000shells/batsignal/obj_batSignalB_spec"
+}

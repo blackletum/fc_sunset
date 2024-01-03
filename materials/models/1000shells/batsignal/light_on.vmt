@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/1000shells/batsignal/BatSignalInside"
+
+	"$selfillum"		"1"
+	"$selfillummask"	"models/1000shells/batsignal/effect_black"
+	"$selfillumtint"	"[0,5 0,5 0,5]"
+
+	"$phong" "1"
+	"$phongexponent" "0"
+
+	"$phongalbedotint" "1"
+	"$phongboost" ".12" 
+	"$phongfresnelranges"	"[02 10 50]"
+
+
+	$detailscale 5
+	$detailblendfactor 1.1
+	$detailblendmode 0
+
+
+}

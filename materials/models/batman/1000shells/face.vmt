@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/batman/1000shells/face"
+	"$bumpmap" "models/batman/1000shells/face_n"
+}
