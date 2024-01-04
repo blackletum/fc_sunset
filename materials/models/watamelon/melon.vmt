@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/watamelon/melon_albedo"
+	$bumpmap "models/watamelon/melon_normal"
+	$surfaceprop watermelon
+
+//	$envmap "env_cubemap"
+//	$envmapmask "models/watamelon/melon_roughness"
+
+	$phong "1"
+	$phongexponent "30"
+	$phongboost "0.6"
+	$phongfresnelranges "[1 5 1]"
+	$phongwarptexture "models/watamelon/melon_roughness"
+
+	$model "1"	
+
+	$halflambert "1"
+	$diffuseexp "1.5"
+}
+
+// thanks point for fixing the black watamelon bug, im just really stupid and forgot $illumpostion was a thing.

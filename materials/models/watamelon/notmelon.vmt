@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/watamelon/notmelon_albedo"
+//	$bumpmap "models/watamelon/normal"
+	$surfaceprop watermelon
+
+//	$envmap "env_cubemap"
+
+	$phong "1"
+	$phongexponent "30"
+	$phongboost "10"
+	$phongfresnelranges "[1 2 1]"
+
+	$model "1"
+
+	$halflambert "1"
+	$diffuseexp "1.5"
+}

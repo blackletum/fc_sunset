@@ -1,0 +1,10 @@
+"MonitorScreen"
+{
+	$basetexture "models/watamelon/watame_face"
+	$bumpmap "models/watamelon/normal"
+	$surfaceprop watermelon
+	$color2 "{ 180 180 180 }"
+
+
+	$model "1"
+}
