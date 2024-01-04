@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\pd/miku/legs"
+                $bumpmap         "models\pd/miku/legs_n"
+                "$color2" "[0.8 0.8 0.8]"
+	$surfaceprop Flesh
+
+                $normalmapalphaenvmapmask "1"
+
+	"$envmap" "env_cubemap"					
+	"$envmaptint" "[0.1 0.1 0.1]"				
+ 	"$envmapFresnel"  "[1.0] "
+
+                $lightwarptexture "models\pd/miku/toon_c"
+
+	$alphatest 1
+                $nocull 1
+
+	$phong 1
+                "$phongfresnelranges"	"[0.3 1.25 3.25]"	
+	$phongalbedotint 0
+                $phongtint "[ 1 1 1]"
+	"$phongexponent" "5"
+	"$phongboost"	"1"
+	$phongalbedoboost 4
+
+	"$rimlight" "1"
+	"$rimlightboost" "0.35"
+	//"$rimmask" "1"
+
+
+	$rimmask 1
+}

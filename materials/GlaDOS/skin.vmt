@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "GlaDOS\skin"
+	"$halflambert" 1
+	"$nocull" 1
+	"$nodecal" 1
+}

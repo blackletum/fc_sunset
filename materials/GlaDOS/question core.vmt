@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "GlaDOS\question core"
+	"$selfillum" "1"
+	"$selfillummask" "glados\question core light" 
+	"$halflambert" 1
+	"$nocull" 1
+	"$nodecal" 1
+
+}

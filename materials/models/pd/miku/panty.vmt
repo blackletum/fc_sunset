@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\pd/miku/panty"
+                $bumpmap         "models\pd/miku/panty_n"
+                $color2 "[ 1 1 1]"
+	$surfaceprop Flesh
+
+                $normalmapalphaenvmapmask "1"
+
+
+                $lightwarptexture "models\pd/miku/toon_c"
+
+	$alphatest 1
+                $nocull 1
+
+	$phong 1
+                "$phongfresnelranges"	"[0.3 1.25 3.25]"	
+	$phongalbedotint 0
+                $phongtint "[ 1 1 1]"
+	"$phongexponent" "5"
+	"$phongboost"	"1"
+	$phongalbedoboost 4
+
+	"$rimlight" "1"
+	"$rimlightboost" "0.35"
+	//"$rimmask" "1"
+
+
+	$rimmask 1
+}

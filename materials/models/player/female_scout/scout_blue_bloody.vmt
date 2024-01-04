@@ -1,0 +1,79 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\female_scout\scout_blue_bloody"
+	"$bumpmap" "models\player\female_scout\scout_normal"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "1"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+	"$healthbase" "1.01"
+	"$healthtemp" "0.1"
+	"$finalhealth" "0.01"
+	"$colortemp" "{255 255 255}"
+	"$alphatemp" "1"
+
+
+	"$yellow" "0"
+	"$one" "1"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"PlayerHealth"
+		{
+			"scale" "1"
+			"resultVar" "$healthtemp"
+		}
+		"Subtract"
+		{
+			"srcVar1" "$healthtemp"
+			"srcVar2" "$healthtemp"
+			"resultVar" "$finalhealth"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$finalhealth"
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$colortemp"
+			"resultVar" "$color"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$alphatemp"
+			"resultVar" "$alpha"
+		}
+	}
+}
