@@ -37035,6 +37035,420 @@ Fires....... something"
 //			"attach_to_hands"	"0"
 //			"attach_to_hands_vm_only"	"1"
 			}
+		"10163"
+		{
+			"name"	"CS:GO SAS"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Counter-Terrorist"
+			"item_name"	"CS:GO SAS"
+			"item_description"	"Model by Loyalists"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/spy SAS/spy.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"spy" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.9"
+				}
+			}
+		}
+		"10164"
+		{
+			"name"	"Doomguy Scout"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Demon Exterminator"
+			"item_name"	"Doomguy Scout"
+			"item_description"	"Model by The Medineer"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/doomguy_scout/scout.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.8"
+				}
+			}
+		}
+		"10165"
+		{
+			"name"	"SkeleScout"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Skele"
+			"item_name"	"SkeleScout"
+			"item_description"	"Model by Insaneicide"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/skeleton scout/scout.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.95"
+				}
+			}
+		}
+		"10166"
+		{
+			"name"	"sanic"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 fast"
+			"item_name"	"sanic"
+			"item_description"	"Model by Thecorp303/CinnaDevCwunch"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/sanic/scout.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.5"
+				}
+			}
+		}
+		"10167"
+		{
+			"name"	"Grunt scout"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Combine Lackey"
+			"item_name"	"Grunt scout"
+			"item_description"	"Model by volvo/brucwillis235"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/grunt_scout/scout.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.95"
+				}
+			}
+		}
+		"10168"
+		{
+			"name"	"Tracer"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 I'm Already Tracer"
+			"item_name"	"Tracer"
+			"item_description"	"Model by Voxxx"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/tracer_scout/scout.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.2"
+				}
+			}
+		}
+		"10169"
+		{
+			"name"	"Bill"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Hero"
+			"item_name"	"Bill"
+			"item_description"	"Model by Voxxx"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/bill_sniper/sniper.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"sniper" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.97"
+				}
+			}
+		}
+		"10170"
+		{
+			"name"	"Barney"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Securty Guard"
+			"item_name"	"Barney"
+			"item_description"	"Model by ZorvShadow"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/barney_spy/spy.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"spy" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.9"
+				}
+			}
+		}
+		"10171"
+		{
+			"name"	"MNC Soldier"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Woman"
+			"item_name"	"MNC Soldier"
+			"item_description"	"Model by TheMedineer"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/femsoldier/soldier.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"soldier" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.2"
+				}
+			}
+		}
 		"647"
 		{
 			"name"	"The All-Father"

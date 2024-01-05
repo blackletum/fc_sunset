@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+//Base
+	"$basetexture" 					"models\player\scout\gray"
+	"$bumpmap" 						"models\player\scout\normal"
+	"$phongalbedotint"				"1"
+	
+//Other
+	"$color2"						"[0 0 0]"
+	"$translucent"					"1"
+	"$nocull"					"1"
+
+//Phong
+	"$phong" 						"1"
+	"$phongboost"					"3.386979"
+	"$phongfresnelranges"			"[1 1 1]"
+	"$phongexponent"			"350"
+
+	"$ambientocclusion"				"0.7"
+
+	"$Detail" 				  	  "models\player\scout\head_emissive_blue"
+	"$DetailScale" 			  	  "1"
+	"$DetailBlendFactor" 	  	  "1"
+	"$DetailBlendMode" 		   	  "5"
+
+//Envmap	
+	"$envmap" 						"models\player\scout\painted_silver" //Taken from Custom Cubemap Pack on SFM
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmapfresnel"				"1"
+	"$envmaptint"					"[.3 .3 .3]"
+}
+
+
