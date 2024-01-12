@@ -1,0 +1,21 @@
+patch
+{
+	include "materials\IA-NanaNana\Mika\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Mika\all"
+		$selfillum 1
+		$selfillummask "IA-NanaNana\Mika\all"
+		
+		$envmap env_cubemap
+		$envmapfresnel 1
+		$envmapfresnelminmaxexp "[0 0 0]"
+		$envmaptint "[5 0.6 0.57]"
+
+		$nodecal 1
+	}
+	replace
+	{
+		"$phongboost"   			"25"
+	}
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/darkness/body"
+	"$lightwarptexture" "models/darkness/shader"
+	"$nocull" 1
+	"$nodecal" 1
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/KanrojiV3/Eyes"
+	"$alphatest" 1
+	"$nocull" 1
+}

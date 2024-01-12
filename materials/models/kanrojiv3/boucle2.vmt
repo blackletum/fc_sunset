@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/KanrojiV3/Boucle2"
+	"$nocull" 1
+}

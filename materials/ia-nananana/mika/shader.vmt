@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$bumpmap "IA-NanaNana/Mika/shader/normal"
+	"$lightwarptexture" "IA-NanaNana\Mika\shader\basewarp"
+	
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	$nocull 1
+	$nodecal 1
+	$halflambert 1
+}

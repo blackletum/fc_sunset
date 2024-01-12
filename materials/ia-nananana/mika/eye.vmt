@@ -1,0 +1,12 @@
+patch
+{
+	include "materials\IA-NanaNana\Mika\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Mika\all"
+	}
+	replace
+	{
+		"$lightwarptexture" "IA-NanaNana\Mika\shader\eyewarp"
+	}
+}

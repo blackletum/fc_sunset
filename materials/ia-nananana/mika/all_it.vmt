@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+$basetexture "IA-NanaNana/Mika/all"
+$bumpmap "IA-NanaNana/Mika/shader/normal"
+"$lightwarptexture" "IA-NanaNana\Mika\shader\basewarp"
+$phong "1"
+$phongboost "2"
+$phongalbedotint "1"
+$phongexponenttexture "IA-NanaNana/Mika/shader/phong_exp"
+$phongfresnelranges "[1 .1 .1]"
+
+$diffuseexp "1.5"
+$alphatest 1
+$allowalphatocoverage 1
+$nocull 1
+$nodecal 1
+$halflambert 1
+$detail "models\survivors\survivor_it.vtf"
+$detailscale 3
+$detailblendfactor ".001" 
+$detailblendmode 0
+$ITAmount 0
+Proxies
+{
+IT
+{
+resultVar $ITAmount
+}
+Equals
+{
+srcVar1 $ITAmount
+resultVar $detailblendfactor
+}
+}
+}
