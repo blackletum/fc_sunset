@@ -1,0 +1,10 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+	"$basetexture" "models/custom/CardboardLuigi/Anya/_04"
+	"$alphatest" 1
+	$lightwarptexture "models/custom/cardboardluigi/Anya/lightwarp"
+}
+}

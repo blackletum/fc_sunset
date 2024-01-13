@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/subtact/tsukumo_sana/sana_fronthair"
+	$bumpmap "dev/dev_normal"
+	$lightwarptexture "models/subtact/tsukumo_sana/skinwarp"
+	$phong 1
+	$phongfresnelranges 1 .1 .1
+	$phongboost 0.2
+	$halflambert 1
+	$surfaceprop Metal
+	$nocull 1
+	//$translucent 1
+}

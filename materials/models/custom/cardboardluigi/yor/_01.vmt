@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/CardboardLuigi/Yor/_01"
+	"$nodecal" 1
+	$lightwarptexture "models/custom/cardboardluigi/Yor/lightwarp"
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "blue_oathasd/ougenasd/G_CA_Prinzeugen_Body_H_001_C"
+	"$lightwarptexture" "blue_oathasd/ougenasd/basewarp"
+         "$bumpmap" "blue_oathasd/ougenasd/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+}

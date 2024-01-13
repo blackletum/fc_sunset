@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Sirius-Zoey/skin"
+	"$color2" "[1.92 1.92 1.92]"
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	"1.2"
+	"$phongexponent" "1"
+	"$phongfresnelranges"	"[.1 1 1]"
+	"$bumpmap" "models/Sirius-Zoey/normal"
+	"$lightwarptexture" "models/Sirius-Zoey/toon_all"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "5"
+	"$rimlightboost"          "3"
+}
+

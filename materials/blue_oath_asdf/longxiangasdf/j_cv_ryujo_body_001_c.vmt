@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "blue_oath_asdf/longxiangasdf/J_CV_Ryujo_Body_001_C"
+	"$lightwarptexture" "blue_oath_asdf/longxiangasdf/basewarp"
+	"$PhongExponentTexture" "blue_oath_asdf/longxiangasdf\mom" 	
+	"$bumpmap" "blue_oath_asdf/longxiangasdf/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".2"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .7 .6]"
+	"$PhongExponent" "15"
+	"$halflambert" "1"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost "         ".2"
+	}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/npc_tsukumo_sana_f"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

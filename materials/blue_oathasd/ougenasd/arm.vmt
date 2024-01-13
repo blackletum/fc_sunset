@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "blue_oathasd/ougenasd/arm"
+	"$lightwarptexture" "blue_oathasd/ougenasd/basewarp"
+		"$PhongExponentTexture" "blue_oathasd/ougenasd/phongcls"             
+	   "$bumpmap" "blue_oathasd/ougenasd/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".2"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .5 .5]"
+	"$PhongExponent" "9"
+	"$halflambert" "1"
+
+
+
+}

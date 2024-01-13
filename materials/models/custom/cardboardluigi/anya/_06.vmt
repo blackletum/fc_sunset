@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/CardboardLuigi/Anya/_06"
+	"$nodecal" 1
+	$halflambert 1
+	$lightwarptexture "models/custom/cardboardluigi/Anya/lightwarp"
+}

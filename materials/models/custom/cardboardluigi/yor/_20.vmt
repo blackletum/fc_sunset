@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/CardboardLuigi/Yor/_20"
+	$lightwarptexture "models/custom/cardboardluigi/Yor/lightwarp"
+}

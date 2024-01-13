@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "blue_oath_asdf/longxiangasdf/J_CV_Ryujo_Hair_001_C"
+	"$lightwarptexture" "blue_oath_asdf/longxiangasdf/basewarp"
+         "$bumpmap" "blue_oath_asdf/longxiangasdf/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+}
