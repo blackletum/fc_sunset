@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$basetexture" "models/zekkriel/Citizen_17/arm"
+	"$bumpmap" "models/zekkriel/Citizen_17/flatnormal"
+	"$phong"     "1"
+	"$phongalbedotint"              "1"	
+	"$phongexponenttexture"	"models/zekkriel/Citizen_17/exponent"
+	"$halflambert"	1
+ 	"$phongexponent"   "12"
+ 	"$phongboost"   "2"
+ 	"$phongfresnelranges"   "[0.05 0.5 1]"
+
+}

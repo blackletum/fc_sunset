@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	// Original shader: TranslucentSpecularSphericalEnvMap
+	"$basetexture" "models/zekkriel/zekkriel/citizen_17/glass"
+}
+

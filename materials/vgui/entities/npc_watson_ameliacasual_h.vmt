@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/npc_watson_ameliacasual_h"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
