@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "20doge/gura/tex_gura_others"
+        "$lightwarptexture" "20doge/gura/basewarp"
+         "$bumpmap" "20doge/gura/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+}

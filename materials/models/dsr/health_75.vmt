@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\dsr\health"
+	"$bumpmap" "models\dsr\health_n"
+
+"$phong"				"1"
+"$phongboost"			"5"
+"$phongexponent"			"5"
+"$phongexponenttexture"		"models\dsr\health_e"
+"$phongfresnelranges"   "[1 .7 .3]"
+"$phongalbedotint"			"1.00"
+"$phongdisablehalflambert"		"1.00"
+
+	"$rimlight" "1"
+   	"$rimlightexponent" "8"
+  	"$rimlightboost" "0.3"
+
+	"$emissiveBlendEnabled" "1"
+	"$emissiveBlendTexture" "dev/null"
+	"$emissiveBlendBaseTexture" "models\dsr\health_75"
+	"$emissiveBlendFlowTexture" "dev/null"
+	"$emissiveBlendTint" "[031 184 155]"
+	"$emissiveBlendStrength" "0.02"
+
+
+
+	$color2 "[.8 .8 .8]" //darken metals
+
+}

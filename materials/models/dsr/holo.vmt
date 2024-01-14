@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\dsr\holo"
+	"$additive" "1"
+	"$nocull" "1"
+
+	"$emissiveBlendEnabled" "1"
+	"$emissiveBlendTexture" "dev/null"
+	"$emissiveBlendBaseTexture" "models\dsr\holo"
+	"$emissiveBlendFlowTexture" "dev/null"
+	"$emissiveBlendTint" "[031 184 155]"
+	"$emissiveBlendStrength" "0.02"
+
+}

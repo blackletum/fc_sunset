@@ -38652,6 +38652,144 @@ Fires....... something"
 				}
 			}
 		}
+		"10203"
+		{
+			"name"	"Steamboat Willie"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Welcome to public domain!"
+			"item_name"	"Steamboat Willie"
+			"item_description"	"Model by CKTheAmazingFrog"
+			"item_slot"	"misc"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/cktheamazingfrog/player/willie/willie.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10204"
+		{
+			"name"	"Isaac Clarke"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Survivor"
+			"item_name"	"Isaac Clarke"
+			"item_description"	"Model by GreenStorm64/kill"
+			"item_slot"	"misc"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/deadspace2023/dsrisaaclv3.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10205"
+		{
+			"name"	"Gawr Gura - Casual Outfit"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Dum Shork"
+			"item_name"	"Gawr Gura - Casual Outfit"
+			"item_description"	"Model by GabryTheSniper/明星日鞠"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/l4d2/gawr gura.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
 		"647"
 		{
 			"name"	"The All-Father"

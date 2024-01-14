@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\dsr\spine"
+	"$bumpmap" "models\dsr\spine_n"
+
+$nocull 1
+
+"$phong"				"1"
+"$phongboost"			"6"
+"$phongexponent"			"5"
+"$phongexponenttexture"		"models\dsr\spine_e"
+"$phongfresnelranges"   "[1 .7 .3]"
+"$phongalbedotint"			"1.00"
+"$phongdisablehalflambert"		"1.00"
+
+	"$rimlight" "1"
+   	"$rimlightexponent" "8"
+  	"$rimlightboost" "0.3"
+
+	$color2 "[.9 .9 .9]" //darken metals
+
+}
