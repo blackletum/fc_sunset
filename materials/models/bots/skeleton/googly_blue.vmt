@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture"        "models/player/shared/eye-iris-blue"			  // Iris color in RGB with cornea noise in A
+	"$AmbientOcclTexture" "models/player/shared/eye-extra"				  // Ambient occlusion in RGB, A unused
+	"$Envmap"             "models/player/shared/eye-reflection-cubemap-"    // Reflection environment map	
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$phong" "0"
+ 
+	$bumpmap				"models/bots/skeleton/flat"
+	$phongexponent			"5"			// either/or
+	$phongboost				"1.0"
+	$phongfresnelranges		"[0 0.5 1]"
+
+
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}
