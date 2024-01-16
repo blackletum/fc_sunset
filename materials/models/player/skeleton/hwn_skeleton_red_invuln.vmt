@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_red.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/skeleton/hwn_skeleton_custom_invuln1024"
+	}
+}

@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\player\shared\red_invun.vmt"
+	
+	insert
+	{
+	$basetexture					"ChoEv/Cosmetics/PayDay/Cops/Bulldozer/Dozer_Body_RED"
+	$bumpmap						"ChoEv/Cosmetics/PayDay/Cops/Bulldozer/Dozer_Body_N"
+	}
+}

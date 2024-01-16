@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/gonzo/jinrohimproved/jin-rohhead"
+	"$phongexponenttexture" "models/gonzo/jinrohimproved/jin-rohhead_phong"
+	"$surfaceprop" "flesh"
+	$selfillum 1
+}

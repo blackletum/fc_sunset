@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/gonzo/jinrohimproved/jin-rohbody"
+	"$bumpmap" "models/gonzo/jinrohimproved/jin-rohbody-normal"
+	"$phongexponent"	"5"
+	"$phong" "1"
+	"$phongexponenttexture" "models/gonzo/jinrohimproved/jin-rohbody_phong"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0 0.5 1]"
+	"$surfaceprop" "flesh"	
+}

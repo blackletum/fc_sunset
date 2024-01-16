@@ -1,0 +1,229 @@
+"VertexlitGeneric"
+{
+	"$nodecal" "1"
+	"$baseTexture" "models/player/skeleton/hwn_skeleton_custom1024"
+	"$bumpmap" "models/player/skeleton/hwn_skeleton_normal"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale" ".5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 1
+	
+	"$yellow" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	">=DX90"
+	{
+		"$selfillum" 1
+	}
+
+	"$selfillumtint" "[0 0 0]"
+	"$selfIllumFresnel" "1"
+	"$selfillummask"	"models/player/skeleton/hwn_skeleton_custom_mask"
+	"$selfIllumFresnelMinMaxExp" "[.05 0 25]" // 0.0 1.0 1.0 is the default
+
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "0"
+	"$rimlightboost" ".1"
+
+	"$cloakPassEnabled" "1"
+
+	//"$blendtintbybasealpha"		"1"
+	//"$blendtintcoloroverbase"		"1"
+	//"$color2"		"{210 10 10}"
+	"$colortint_base"		"{203 176 163}"
+	"$colortint_tmp"		"{0 0 0}"
+	"$colortint_tmp2"		"{0 0 0}"
+	"$zero" 			"0"
+	"$twofivefive"		"255"
+	"$three"			"3"
+	"$basevalue" 		"-95.625"
+	"$brightness"		"0.0"
+	"$brightnessadjust"		"-0.5"
+	"$multpower"		"250"
+	"$colorR"			"0.0"
+	"$colorRmult"		"0.0"
+	"$colorG" 		"0.0"
+	"$colorGmult" 		"0.0"
+	"$colorB"			"0.0"
+	"$colorBmult"		"0.0"
+	"$colortint_mult"		"{0 0 0}"
+
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+// COLOR TIME BABYYYYYYYY
+
+		"ItemTintColor"
+		{
+			"resultVar"	"$colortint_tmp"
+		}
+
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"	"$colortint_tmp2"
+		}
+        		"Clamp" //Separates channels
+        		{
+            			"srcVar1"                	"$zero"
+            			"min"                     	"$colortint_tmp2[0]"
+            			"max"         	"$colortint_tmp2[0]"
+           		 	"resultVar"          	"$colorR"
+       		 }
+        		Clamp
+        		{
+            			"srcVar1"            	"$zero"
+            			"min"                     	"$colortint_tmp2[1]"
+            			"max"                     	"$colortint_tmp2[1]"
+           		 	"resultVar"              	"$colorG"
+       		 }
+        		Clamp
+        		{
+            			"srcVar1"          	"$zero"
+            			"min"                       "$colortint_tmp2[2]"
+            			"max"                      "$colortint_tmp2[2]"
+           		 	"resultVar"               "$colorB"
+       		 }
+//Brightness Math
+		"Add"
+		{
+			"srcVar1"		"$colorR"
+			"srcVar2"		"$colorG"
+			"resultVar"	"$brightness"
+		}
+		"Add"
+		{
+			"srcVar1"		"$colorB"
+			"srcVar2"		"$brightness"
+			"resultVar"	"$brightness"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$brightness"
+			"srcVar2"		"$twofivefive"
+			"resultVar"	"$brightness"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$brightness"
+			"srcVar2"		"$three"
+			"resultVar"	"$brightness"
+		}
+		"Multiply" //Adjust brightness
+		{
+			"srcVar1"		"$brightness"
+			"srcVar2"		"$brightnessadjust"
+			"resultVar"	"$brightness"
+		}
+		"Multiply" //Multiplies base adjust by brightness
+		{
+			"srcVar1"		"$brightness"
+			"srcVar2"		"$basevalue"
+			"resultVar"	"$basevalue"
+		}
+//Red
+
+		"Multiply" //Multiplies color to increase glow strength
+		{
+			"srcVar1"		"$colorR"
+			"srcVar2"		"$multpower"
+			"resultVar"	"$colorRmult"
+		}
+		"Add" //Add base value to reduce overall value gradient from 0 to 100 saturation
+		{
+			"srcVar1"		"$colorRmult"
+			"srcVar2"		"$basevalue"
+			"resultVar"	"$colortint_mult[0]"
+		}
+
+//Green
+
+		"Multiply"
+		{
+			"srcVar1"		"$colorG"
+			"srcVar2"		"$multpower"
+			"resultVar"	"$colorGmult"
+		}
+		"Add"
+		{
+			"srcVar1"		"$colorGmult"
+			"srcVar2"		"$basevalue"
+			"resultVar"	"$colortint_mult[1]"
+		}
+
+//Blue
+
+		"Multiply"
+		{
+			"srcVar1"		"$colorB"
+			"srcVar2"		"$multpower"
+			"resultVar"	"$colorBmult"
+		}
+		"Add"
+		{
+			"srcVar1"		"$colorBmult"
+			"srcVar2"		"$basevalue"
+			"resultVar"	"$colortint_mult[2]"
+		}
+//Final
+		"Equals"
+		{
+			srcVar1		"$colortint_mult"
+			resultVar		"$selfillumtint"
+		}
+// -------------------------
+
+		"Sine"
+		{
+			"sineperiod" "2"
+			"sinemin" ".005"
+			"sinemax" ".1"
+			"resultVar" "$selfillumfresnelminmaxexp[1]"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" "2"
+			"sinemin" "0"
+			"sinemax" "55"
+			"resultVar" "$selfillumfresnelminmaxexp[3]"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" "1"
+			"sinemax" ".1"
+			"resultVar" "$rimlightboost" 
+		}
+	}
+}

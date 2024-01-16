@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\player\shared\blue_invun.vmt"
+	
+	insert
+	{
+	$basetexture	"models/cosmetics/scout/cosmetic_atlas_blue"
+	$bumpmap	"models/cosmetics/scout/cosmetic_atlas_n"
+	}
+}

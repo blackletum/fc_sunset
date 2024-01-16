@@ -1,0 +1,25 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/skeleton/hwn_skeleton_sport_invuln1024"
+		"$bumpmap" "water/tfwater001_normal"
+		"$normalmapalphaenvmapmask" 1
+		"$basemapalphaphongmask" 0
+		
+		"$envmap" "models/player/shared/invun_custom"
+
+		"$selfillum" "1"
+		"$selfillumtint" "[ 3 3 3 ]"
+		"$selfIllumFresnel" "1"
+		"$selfIllumFresnelMinMaxExp" "[0 18 13]" // 0.0 1.0 1.0 is the default
+
+		"$blendtintbybasealpha"		"0"
+		"$blendtintcoloroverbase"		"0"
+		"$color2"				"{46 146 72}"
+		"$envmaptint"			"{46 146 72}"
+	}
+}
+
