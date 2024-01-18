@@ -1,0 +1,23 @@
+"Patch"
+{
+	include "materials\models\player\shared\green_invun.vmt"
+	
+	insert
+	{
+	"$basetexture" "models/bfbbr/mrkrabs/krabs_green"
+	"$bumpmap" "models/bfbbr/mrkrabs/krabs_n"
+	"$ambientoccltexture" "models/bfbbr/mrkrabs/krabs_ao"
+	"phongexponenttexture" "models/bfbbr/mrkrabs/krabs_pow"
+
+
+	"$phong" "1"
+	"$phongtint" "[0.2 0.4 1]"
+	//"$phongexponent" "0.66"
+	"$phongboost" "0.15"	
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$ambientocclusion" "1"
+	"$ambientocclcolor" "[.7 .7 .7]" Default 0.33, 0.33, 0.33
+	}
+}
+

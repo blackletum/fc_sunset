@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\dizcordum\Taimans\asagi\MainSlot_Asagi_1004"
+	"$bumpmap" "models\dizcordum\Taimans\asagi\normal"
+
+	"$nocull" "1"
+	$phong "1"
+	$phongboost "0.05"
+	$phongfresnelranges "[0.5 0.5 0.5]"
+	$phongwarptexture "models\dizcordum\base\cit_male_m"
+	$halflambert 0
+	$phongexponent 0
+
+
+}
