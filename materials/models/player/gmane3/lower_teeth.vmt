@@ -1,0 +1,6 @@
+"Teeth"
+{
+	"$basetexture" "models/player/GmanE3/lower_teeth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/rukia/eyeball"
+	"$nocull" "1"
+	"$nodecal" "1"
+}

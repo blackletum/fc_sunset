@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/rukia/katana_chelou"
+	"$nocull" "1"
+	"$nodecal" "1"
+}

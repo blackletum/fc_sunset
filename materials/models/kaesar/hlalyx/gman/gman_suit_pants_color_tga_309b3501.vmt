@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/kaesar/hlalyx/gman/gman_suit_pants_color_tga_309b3501"
+    
+    "$bumpmap" "models/kaesar/hlalyx/gman/gman_suit_pants_normal_tga_a664190"
+
+	"$phong" "1"
+	"$phongboost"	"24"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models/kaesar/hlalyx/gman/phong_exp"
+	"$phongfresnelranges"	"[0 0 1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+     
+    
+}
+        

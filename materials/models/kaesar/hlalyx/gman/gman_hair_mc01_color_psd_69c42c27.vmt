@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/kaesar/hlalyx/gman/gman_hair_mc01_color_psd_69c42c27"
+
+	 "$translucent" "1"
+                  $nocull "1"
+
+    
+}
+        

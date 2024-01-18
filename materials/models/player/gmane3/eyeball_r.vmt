@@ -1,0 +1,5 @@
+"eyes"
+{
+                "$basetexture" "models/player/GmanE3//eyeball_r"
+	"$iris" "models/gman/pupil_r"
+}

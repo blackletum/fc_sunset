@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/rukia/Face"
+	"$nocull" "1"
+	"$nodecal" "1"
+}
