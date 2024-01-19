@@ -1,0 +1,39 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gfl/microuzi/Boots"
+ 	"$bumpmap" "dev/bump_normal"
+ 
+
+	"$nodecal" "1"
+	"$lightwarptexture" "models/gfl/microuzi/lightwarpex3"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[ .4 .4 .4 ]"
+ 
+		
+ 
+ 
+	
+	"$phong" "1"
+	"$phongboost"	"1"
+ 
+	"$phongalbedotint" "1"
+
+	"$phongfresnelranges"	"[.2 .5 1]"
+	$phongexponent "5"
+
+ 
+	$nocull 1
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "15"
+}
+
+
+
+
+
+
+
+
+

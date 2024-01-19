@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gfl/microuzi/head"
+	"$bumpmap" "dev/bump_normal"
+ 
+	
+	"$lightwarptexture" "models/gfl/microuzi/headwarpex2nse"
+
+	"$translucent" "1"
+	"$nodecal" "1"
+
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+

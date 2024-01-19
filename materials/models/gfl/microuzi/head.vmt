@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gfl/microuzi/head"
+	"$bumpmap" "dev/bump_normal"
+
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongboost"	".5"
+	"$phongexponent" "1"
+	"$normalmapalphaphongmask"	"1"
+	"$phongalbedotint" "1"
+
+ 
+	"$phongfresnelranges"	"[.1 .3 1]"
+	
+	"$lightwarptexture" "models/gfl/microuzi/headwarpex2nse"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "3"
+ 
+}
+
+
+
+
+
+
+
+
+
+
