@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/nirny/hevosaka/_12"
+	"$envmapmask" "models/nirny/hevosaka/12_mask"
+	"$envmap" "env_cubemap"
+	"$halflambert" 1
+}

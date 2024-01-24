@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/nirny/hevosaka/_13"
+    "$lightwarptexture" "models/nirny/hevosaka/base"
+    "$alphatestreference" .3
+	"$alphatest" 1
+	"$nocull" 1
+	"$nodecal" 1
+}

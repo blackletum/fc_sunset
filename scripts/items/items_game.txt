@@ -41260,7 +41260,7 @@ Fires....... something"
 		}
 		"10269"
 		{
-			"name"	"test"
+			"name"	"Metropolice Capitan"
 			"first_sale_date"	"1969/04/20"
 			"prefab"	"valve base_misc"
 			"hidden"	"0"
@@ -41276,9 +41276,9 @@ Fires....... something"
 			"loadondemand" "1"
 			"propername" "1"
 			"show_in_armory"	"1"
-			"item_type_name"	"Level 99 test"
-			"item_name"	"test"
-			"item_description"	"Model by test"
+			"item_type_name"	"from Snowdrop Escape"
+			"item_name"	"Metropolice Capitan"
+			"item_description"	"Model by Gürayidmemet "
 			"item_slot"	"head"
 			"equip_region"		"disconnected_floating_item"
 			"item_quality"	"unique"
@@ -41287,7 +41287,57 @@ Fires....... something"
 			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_world"	"models/alyx_arctic/alyx_arctic.mdl"
+			"model_world"	"models/player/capitan.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+				"combine" 	"1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.95"
+				}
+				"use robo voice"
+				{
+					"attribute_class"	"use_robo_voice"
+					"value"				"1"
+				}
+			}
+		}
+		"10270"
+		{
+			"name"	"Osaka Freeman"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 AzumangaDaioh"
+			"item_name"	"Osaka Freeman"
+			"item_description"	"Model by MissNirny"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/nirny/vroid/hev_osaka_san.mdl"
 			"model_player"	"models/empty.mdl"
 			"used_by_classes"
 			{
@@ -41302,7 +41352,6 @@ Fires....... something"
 				}
 			}
 		}
-
 		"647"
 		{
 			"name"	"The All-Father"
