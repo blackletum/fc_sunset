@@ -1,0 +1,17 @@
+"EyeRefract"
+{
+	"$iris"               		"yokolittnerpm/eye"
+	"$corneatexture"      	"yokolittnerpm/eyen"
+	"$corneabumpstrength" 	"1"
+
+	"$parallaxstrength" 		"0"	
+	"$dilation" 		"0.5"
+	"$glossiness" 		"0.3"
+	"$ambientoccltexture" 	"yokolittnerpm/black"
+	"$ambientocclcolor" 	"[.3 .3 .3]"
+	"$eyeballradius" 		".5"
+
+	"$halflambert" 		"1"
+	"$nodecal" 		"1"
+	"$lightwarptexture" 		"yokolittnerpm/lightwarptexture"
+}
