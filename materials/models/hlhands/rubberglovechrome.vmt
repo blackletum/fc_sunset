@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hlhands/RubbergloveCHROME"
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.15 5 1]"
+	"$phongtint" "[ .237 .28 .36]"
+	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" ".5"
+
+}

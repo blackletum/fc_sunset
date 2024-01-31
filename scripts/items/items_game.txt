@@ -27928,12 +27928,196 @@ Fires....... something"
 		}
 		"9787"
 		{
-//was JuandeagHeavy
+			"name" "Juandeag"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"first_sale_date" "2012/06/27"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"item_type_name"	"#TF_Weapon_Pistol"
+			"item_name"	"Juandeag"
+			"item_description"	"Becomes perfectly accurate again
+			1.5 seconds after firing.
+			Goes in Primary Slot, 
+			hud_fastswitch 0 to access
+			Heavy can handle bigger magazines"
+			"item_logname"	"pep_pistol"
+			"item_iconname"	"pep_pistol"
+			"item_slot"	"secondary"
+			"anim_slot"	"ITEM1"
+			"item_quality"	"unique"
+			"baseitem" "0"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"show_in_armory"	"1"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"31"
+			"model_player"	"models/weapons/csgo/v_deagle.mdl"
+			"model_world"	"models/weapons/w_models/w_deagle/w_revolver.mdl"
+			"capabilities"
+			{
+				"can_collect" "1"
+			}
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -10"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.55"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.35"
+				}
+				"headshot damage increase"
+				{
+					"attribute_class"	"headshot_damage_modify"
+					"value"	"3"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"2"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Deagle.Single"
+				"sound_burst"			"Weapon_Deagle.SingleCrit"
+				"animation_replacement"
+				{
+					"ACT_VM_PRIMARYATTACK"	"ACT_SECONDARY_VM_PRIMARYATTACK"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 		"9788"
 		{
-//was JuandeagSniper
+			"name" "JuandeagSniper"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"first_sale_date" "2012/06/27"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"item_type_name"	"#TF_Weapon_Pistol"
+			"item_name"	"Juandeag"
+			"item_description"	"Becomes perfectly accurate again
+			1.5 seconds after firing."
+			"item_logname"	"pep_pistol"
+			"item_iconname"	"pep_pistol"
+			"item_slot"	"primary"
+			"anim_slot"	"ITEM1"
+			"item_quality"	"unique"
+			"baseitem" "0"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"show_in_armory"	"1"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_pep_pistol/c_pep_pistol"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"31"
+			"model_player"	"models/weapons/csgo/v_deagle.mdl"
+			"model_world"	"models/weapons/w_models/w_deagle/w_revolver.mdl"
+			"capabilities"
+			{
+				"can_collect" "1"
+			}
+			"used_by_classes"
+			{
+				"sniper"	"1"
+				"medic"	"1"
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -10"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.65"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.85"
+				}
+				"headshot damage increase"
+				{
+					"attribute_class"	"headshot_damage_modify"
+					"value"	"4"
+				}
 
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Deagle.Single"
+				"sound_burst"			"Weapon_Deagle.SingleCrit"
+				"animation_replacement"
+				{
+					"ACT_VM_PRIMARYATTACK"	"ACT_SECONDARY_VM_PRIMARYATTACK"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 		"9789"
 		{
@@ -41481,6 +41665,50 @@ Fires....... something"
 				{
 					"attribute_class"	"voice_pitch_scale"
 					"value"		"1.3"
+				}
+			}
+		}
+		"10274"
+		{
+			"name"	"Literally Me"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Scientist"
+			"item_name"	"Literally Me"
+			"item_description"	"Model by Sirix"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/hl1/gordongosling.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1"
 				}
 			}
 		}
