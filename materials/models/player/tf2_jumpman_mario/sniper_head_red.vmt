@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\tf2_jumpman_mario/sniper_head"
+	"$bumpmap"     "models\player\tf2_jumpman_mario/sniper_head_phongmask"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\player\tf2_jumpman_mario/sniper_head_exponent"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models\player\tf2_jumpman_mario/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"					// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"			// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".5"			// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+}

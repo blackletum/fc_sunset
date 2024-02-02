@@ -19890,7 +19890,7 @@
 				"damage boost"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"2.75"
+					"value"	"5.75"
 				}
 			}
 			"visuals"
@@ -41860,7 +41860,7 @@ Fires....... something"
 			"item_type_name"	"Level 99 Legally Distinct Ialian Man"
 			"item_name"	"Jumpman Mario"
 			"item_description"	"Model by EnergyFlamer"
-			"item_slot"	"misc2"
+			"item_slot"	"head"
 			"equip_region"		"disconnected_floating_item"
 			"item_quality"	"unique"
 			"min_ilevel"	"20"

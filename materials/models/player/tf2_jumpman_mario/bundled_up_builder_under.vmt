@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models\player\tf2_jumpman_mario/blue"
+	"$bumpmap"		"models\player\tf2_jumpman_mario/bundled_up_builder_under_normal"
+	"$lightwarptexture"		"models\player\tf2_jumpman_mario/pyro_lightwarp"
+	"$phongexponenttexture"		"models\player\tf2_jumpman_mario/bundled_up_builder_under_phongexponent"
+	"$phong"		"1"
+	"$phongexponent"		"10.000000"
+	"$phongboost"		"0.050000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1.000000"
+	"$rimmask"		"1"
+	"$bumpmapalphaphongmask"		"1"
+}
