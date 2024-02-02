@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\Kill_La_Kill\RyukoMatoi_StreetClothes/WeaponBox"
+	"$halflambert" "1"
+	"$lightwarptexture" "models\Kill_La_Kill\RyukoMatoi_StreetClothes/lightwarptexture"
+}
+

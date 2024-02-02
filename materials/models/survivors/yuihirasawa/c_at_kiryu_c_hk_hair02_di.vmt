@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\survivors\YuiHirasawa/c_at_kiryu_c_hk_hair02_di"
+	"$halflambert" "1"
+	"$lightwarptexture" "models\survivors\YuiHirasawa/lightwarp_toon"
+}
+
