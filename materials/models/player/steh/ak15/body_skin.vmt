@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models\player\steh\ak15/body"
+	$bumpmap "models\player\steh\ak15/normal"
+	$lightwarptexture "models\player\steh\ak15/shared/toon_skin"
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 5
+
+	$alphatest 1
+}

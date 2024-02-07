@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\steh\ak15/face"
+	 "$lightwarptexture" "models\player\steh\ak15/shared//toon_skin"
+         "$bumpmap" "models\player\steh\ak15/normal"
+                "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+$ambientocclusion 0
+}

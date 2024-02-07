@@ -41883,86 +41883,6 @@ Fires....... something"
 				}
 			}
 		}
-			"29000"
-		{
-			"name"	"The Polygonal Pistol"
-			"first_sale_date"	"2011/05/15"
-			"item_class"	"tf_weapon_revolver"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_Pistol"
-			"item_name"	"Polygonal Pistol"
-			"item_slot"	"secondary"
-			"item_quality"	"unique"
-			"propername"	"1"
-			"item_logname"	"pistol_hl1"
-			"item_iconname"	"pistol_hl1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"image_inventory"	"backpack/workshop/weapons/c_models/c_snub_nose/c_snub_nose"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"inspect_panel_dist" 			"32"
-			"model_player"	"models/weapons/v_models/v_glock.mdl"
-			"model_world"	"models/weapons/c_models/barney/c_pistol.mdl"
-			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"spy"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -6"				
-			}
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-			"attributes"
-			{
-				"fire rate bonus"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.35"
-				}
-				"clip size bonus"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value"	"3"
-				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"0.40"
-				}
-				"maxammo secondary increased"
-				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value"				"3"
-				}
-				"crit mod disabled"
-				{
-					"attribute_class"	"mult_crit_chance"
-					"value"	"0"
-				}
-			}
-			"visuals"
-			{
-				"sound_single_shot"	"Weapon_Glock.Single"
-				"sound_burst"	"Weapon_Glock.Single"
-			}
-		}
 		"10277"
 		{
 			"name"	"Yui Hirasawa"
@@ -42050,6 +41970,263 @@ Fires....... something"
 					"value"		"1.2"
 				}
 			}
+		}
+		"10279"
+		{
+			"name"	"Courier 6"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 10 Big Iron Enjoyer"
+			"item_name"	"Courier 6"
+			"item_description"	"Model by nikout13"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/fallout_nv/nikout/lonesomeroad/riotsoldier.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.2"
+				}
+			}
+		}
+		"10280"
+		{
+			"name"	"AK-15"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Aвтомат Калашникова образца 2015 года"
+			"item_name"	"AK-15"
+			"item_description"	"Model by stehouse "
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/steh/ak15/ak15_pm.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.2"
+				}
+			}
+		}
+			"29000"
+		{
+			"name"	"The Polygonal Pistol"
+			"first_sale_date"	"2011/05/15"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Pistol"
+			"item_name"	"Polygonal Pistol"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"item_logname"	"pistol_hl1"
+			"item_iconname"	"pistol_hl1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_snub_nose/c_snub_nose"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"32"
+			"model_player"	"models/weapons/v_models/v_glock.mdl"
+			"model_world"	"models/weapons/c_models/barney/c_pistol.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -6"				
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.35"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"	"3"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.40"
+				}
+				"maxammo secondary increased"
+				{
+					"attribute_class"	"mult_maxammo_secondary"
+					"value"				"3"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"	"Weapon_Glock.Single"
+				"sound_burst"	"Weapon_Glock.Single"
+			}
+		}
+		"29001"
+		{
+			"name"	"LEEK"
+			"item_class"	"tf_weapon_knife"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"LEEK"
+			"item_name"	"LEEK"
+//testing
+			"item_description"	"Model by test"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_hl2crowbar"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/crowbar_leek/c_crowbar.mdl"
+			"model_world"	"models/weapons/crowbar_leek/w_crowbar.mdl"
+			"attach_to_hands"	"2"
+			"inspect_panel_dist" "40"
+			"item_quality"	"unique"
+			"baseitem"	"0"
+			"item_logname"	"crowbar"
+			"item_iconname"	"crowbar"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"john"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -7"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.02"
+				}
+				"damage penalty HIDDEN"
+				{
+					"attribute_class" 	"mult_dmg"
+					"value" "0.03"
+				}
+				"cannot backstab HIDDEN"
+				{
+					"attribute_class" 	"mod_cannot_backstab"
+					"value" "0"
+				}
+				"deploy time decreased"
+				{
+					"attribute_class"	"mult_deploy_time"
+					"value"	"0.5"
+				}
+			}
+			
+			"visuals"
+			{
+				"sound_melee_hit"		"Weapon_Crowbar.Melee_Hit"
+				"sound_melee_hit_world"	"Weapon_Crowbar.Melee_Hit"
+				"sound_melee_miss"		"Weapon_Crowbar.Single"
+				"sound_burst"		"Weapon_Crowbar.Single"
+				"animation_replacement"
+				{
+					"ACT_MP_STAND_MELEE"	"ACT_HL2MP_IDLE_MELEE"
+					"ACT_MP_RUN_MELEE"	"ACT_HL2MP_RUN_MELEE"
+					"ACT_MP_SWIM_MELEE"	"ACT_HL2MP_SWIM_MELEE"
+					"ACT_MP_SWIM_IDLE_MELEE"	"ACT_HL2MP_IDLE_MELEE"
+					"ACT_MP_CROUCH_MELEE"	"ACT_HL2MP_IDLE_CROUCH_MELEE"
+					"ACT_MP_CROUCH_MELEE"	"ACT_HL2MP_IDLE_CROUCH_MELEE"
+					"ACT_MP_CROUCHWALK_MELEE"	"ACT_HL2MP_WALK_CROUCH_MELEE"
+					"ACT_MP_JUMP_START_MELEE"	"ACT_HL2MP_JUMP_MELEE"
+					"ACT_MP_JUMP_FLOAT_MELEE" "ACT_HL2MP_JUMP_MELEE"
+					"ACT_MP_AIRWALK_MELEE"	"ACT_HL2MP_AIRWALK_MELEE"
+				}		
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
 		"647"
 		{

@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models\player\steh\ak15/eye"
+	$lightwarptexture "models\player\steh\ak15/basewarp"
+	$bumpmap "models\player\steh\ak15/normal"
+                $nocull 1
+	$nodecal 1
+
+	$phong 1
+	$phongboost	".02"
+	$phongalbedotint "1"
+	$phongfresnelranges	"[1 .1 .1]"
+	$PhongExponent "1.0"
+}

@@ -1,0 +1,8 @@
+VertexlitGeneric
+{
+	$basetexture				models/negi/leek_sheet
+	$bumpmap					models/negi/leek_sheet_normal
+	$envmap						env_cubemap
+	$normalmapalphaenvmapmask	1
+	$surfaceprop				watermelon
+}
