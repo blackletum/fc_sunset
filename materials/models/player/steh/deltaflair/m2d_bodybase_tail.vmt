@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models\player\steh\deltaflair/M2D"
+	//$bumpmap 				"Normal"
+	$lightwarptexture		"models\player\steh\deltaflair_GAME/lightwarp/skinwarp"
+	
+	$phong 1
+	$phongboost	0.02			
+	$phongalbedotint 1
+	$phongfresnelranges			1 .1 .1
+
+	$nodecal 				1
+	$nocull					1
+}

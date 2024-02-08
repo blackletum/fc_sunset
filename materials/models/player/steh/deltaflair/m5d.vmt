@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models\player\steh\deltaflair/M5D"
+	//$bumpmap 					"Normal"
+	$lightwarptexture			"models\player\steh\deltaflair/lightwarp/basewarp"
+
+	$phong 1
+	$phongboost	0.02			
+	$phongexponent 12		
+	$phongfresnelranges			1 .1 .1
+
+	$nodecal 				1
+	$nocull					1
+}
