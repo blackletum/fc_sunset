@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "eminence_in_shadow/pm_zeta/body"
+	"$lightwarptexture" "eminence_in_shadow/lightwarpshader"
+}
