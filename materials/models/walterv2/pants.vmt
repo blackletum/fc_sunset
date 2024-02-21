@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walterv2/Pants"
+	"$bumpmap" "models/walterv2/PantsN"
+}

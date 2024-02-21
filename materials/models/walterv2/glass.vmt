@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/walterv2/Glass"
+	"$alphatest" 1
+	"$nocull" 1
+	"$translucent" 1
+}
