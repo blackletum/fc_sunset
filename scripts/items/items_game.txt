@@ -38455,6 +38455,52 @@ Fires....... something"
 		}
 		"10188"
 		{
+			"name"	"Yor Forger (Casual)"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Mom"
+			"item_name"	"Yor Forger (Casual)"
+			"item_description"	"Model by CardboardLuigi/GabryTheSniper"
+			"item_slot"	"misc"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/spyxfamily/yor forger.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10189"
+		{
 			"name"	"Yor Forger"
 			"first_sale_date"	"1969/04/20"
 			"prefab"	"valve base_misc"
@@ -38484,7 +38530,7 @@ Fires....... something"
 			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_world"	"models/spyxfamily/yor forger.mdl"
+			"model_world"	"models/player/yorforger.mdl"
 			"model_player"	"models/empty.mdl"
 			"used_by_classes"
 			{
@@ -38499,7 +38545,7 @@ Fires....... something"
 				}
 			}
 		}
-		"10189"
+		"10190"
 		{
 			"name"	"Anya Forger"
 			"first_sale_date"	"1969/04/20"
@@ -38531,52 +38577,6 @@ Fires....... something"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_world"	"models/spyxfamily/anya forger.mdl"
-			"model_player"	"models/empty.mdl"
-			"used_by_classes"
-			{
-				"john" "1"
-			}
-			"attributes"
-			{
-				"voice pitch scale"
-				{
-					"attribute_class"	"voice_pitch_scale"
-					"value"		"0"
-				}
-			}
-		}
-		"10190"
-		{
-			"name"	"Crosswave Sirius"
-			"first_sale_date"	"1969/04/20"
-			"prefab"	"valve base_misc"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"craft_class"	"hat"
-			"craft_material_type"	"hat"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-				"can_craft_if_purchased"	"1"
-			}
-			"loadondemand" "1"
-			"propername" "1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"128"
-			"show_in_armory"	"1"
-			"item_type_name"	"Level 99 Maido"
-			"item_name"	"Crosswave Sirius"
-			"item_description"	"Model by NPCSnake/GabryTheSniper"
-			"item_slot"	"misc"
-			"equip_region"		"disconnected_floating_item"
-			"item_quality"	"unique"
-			"min_ilevel"	"20"
-			"max_ilevel"	"20"
-			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_world"	"models/l4d2/sirius azur lane.mdl"
 			"model_player"	"models/empty.mdl"
 			"used_by_classes"
 			{
@@ -42188,6 +42188,184 @@ Fires....... something"
 				{
 					"attribute_class"	"voice_pitch_scale"
 					"value"		"0.9"
+				}
+			}
+		}
+		"10284"
+		{
+			"name"	"Lucy"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	""
+			"item_name"	"Lucy"
+			"item_description"	"Model by Azimuth"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/azimuth/closers/lucy/1st/closer_lucy_1st.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10285"
+		{
+			"name"	"Lucy Alt"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	""
+			"item_name"	"Lucy Alt"
+			"item_description"	"Model by Azimuth"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/azimuth/closers/lucy/2nd/closer_lucy_2nd.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10286"
+		{
+			"name"	"Lucy Blackhand"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	""
+			"item_name"	"Lucy Blackhand"
+			"item_description"	"Model by Azimuth"
+			"item_slot"	"head"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/azimuth/closers/lucy/3rd/closer_lucy_blackhand.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+		}
+		"10287"
+		{
+			"name"	"Crosswave Sirius"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Maido"
+			"item_name"	"Crosswave Sirius"
+			"item_description"	"Model by NPCSnake/GabryTheSniper"
+			"item_slot"	"misc"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/l4d2/sirius azur lane.mdl"
+			"model_player"	"models/empty.mdl"
+			"used_by_classes"
+			{
+				"john" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
 				}
 			}
 		}

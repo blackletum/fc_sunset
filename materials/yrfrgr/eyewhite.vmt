@@ -1,0 +1,7 @@
+VertexlitGeneric
+{
+$basetexture "yrfrgr/Face"
+$lightwarptexture "yrfrgr/warp"
+$halflambert 1
+}
+
