@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "canofsoda/senko_mats/senko"
+	"$nocull" 1
+	"$bumpmap" "canofsoda/senko_mats/normal"
+	"$lightwarptexture" "canofsoda/senko_mats/lightwarp"
+	"$phong" "1"
+	"$phongboost"	"13"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "canofsoda/senko_mats/phong_exp"
+	"$phongfresnelranges"	"[0 0 1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+}
