@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/brazil_miku/brazil_miku_shirt_2"
+	"$lightwarptexture" "models/player/brazil_miku/toon_shader"
+	"$halflambert" 1
+	"$nocull" 1
+}

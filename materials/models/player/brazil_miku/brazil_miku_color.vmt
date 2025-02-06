@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/brazil_miku/brazil_miku_color"
+	"$lightwarptexture" "models/player/brazil_miku/toon_shader"
+	"$halflambert" 1
+}
